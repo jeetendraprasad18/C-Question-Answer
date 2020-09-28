@@ -54,7 +54,7 @@ public class Program {
     }  
 }  
 
-#Generic Collections
+##Generic Collections
 C# includes the following generic collection classes in the System.Collections.Generic namespace.
 
 Generic Collections	Description
@@ -64,8 +64,9 @@ SortedList<TKey,TValue>	SortedList stores key and value pairs. It automatically 
 Queue<T>	Queue<T> stores the values in FIFO style (First In First Out). It keeps the order in which the values were added. It provides an Enqueue() method to add values and a Dequeue() method to retrieve values from the collection.
 Stack<T>	Stack<T> stores the values as LIFO (Last In First Out). It provides a Push() method to add a value and Pop() & Peek() methods to retrieve values.
 Hashset<T>	Hashset<T> contains non-duplicate elements. It eliminates duplicate elements.
-Non-generic Collections
-Non-generic Collections	Usage
+
+##Non-generic Collections
+
 ArrayList	ArrayList stores objects of any type like an array. However, there is no need to specify the size of the ArrayList like with an array as it grows automatically.
 SortedList	SortedList stores key and value pairs. It automatically arranges elements in ascending order of key by default. C# includes both, generic and non-generic SortedList collection.
 Stack	Stack stores the values in LIFO style (Last In First Out). It provides a Push() method to add a value and Pop() & Peek() methods to retrieve values. C# includes both, generic and non-generic Stack.
